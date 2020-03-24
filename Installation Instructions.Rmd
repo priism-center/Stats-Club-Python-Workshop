@@ -1,0 +1,28 @@
+---
+title: "Set-up and Installations"
+output:
+  pdf_document: default
+  html_notebook: default
+---
+# 1: Anaconda   
+The easiest way to download everything that you will need is to download Anaconda (Python 3.7 version), here: https://www.anaconda.com/distribution/#download-section
+  
+This will automatically download Python, Jupyter, Spyder, and a number of useful Python packages. If you prefer to download these things separately, links are below.
+   
+# Python     
+Can be downloaded here: https://www.python.org/downloads/  
+  
+# Jupyter Notebooks    
+Use pip3 in the terminal:   
+-You shouldn't need to download pip because it comes with recent Python versions, but just in case, directions are here: https://pip.readthedocs.io/en/stable/installing/   
+-Then, in the terminal, type:  
+pip3 install --upgrade pip  
+pip3 install jupyter  
+More directions here: https://jupyter.readthedocs.io/en/latest/install.html   
+
+# Installing Packages   
+If you need to install additional packages (in case they don't come with Anaconda or if you didn't download Anaconda, you can install them using pip3)   
+For example, to install numpy, you would type the following into your terminal:   
+pip3 install numpy  
+
+
